@@ -21,7 +21,18 @@ To run the backend service:
    npm install
    npm start
 
-2. To register user go to url path: localhost/<port>/register
-3. To login go to url path:localhost/<port>/login
+2. To register user go to url path: 
+Here's how you can add the instructions in a proper README.md file format:
+
+markdown
+Copy code
+## User Registration and Login
+
+To interact with the user authentication system, use the following endpoints:
+
+1. **Register a User**  
+   To register a new user, send a `POST` request to the following URL:
+http://localhost:<port>/register
+3. To login go to url path: http://localhost:<port>/login
 
 
