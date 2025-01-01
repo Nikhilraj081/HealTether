@@ -31,8 +31,7 @@ Copy code
 To interact with the user authentication system, use the following endpoints:
 
 1. **Register a User**  
-   To register a new user, send a `POST` request to the following URL:
-http://localhost:<port>/register
-3. To login go to url path: http://localhost:<port>/login
+   To register a new user, go to url path: http://localhost:[Port]/register
+3. To login go to url path: http://localhost:[port]/login
 
 
