@@ -16,7 +16,7 @@ To run the backend service:
 
 ## Frontend App
 
-1. Go to Frontend folder and then run below command to start App:
+1. Go to frontend-app folder and then run below command to start App:
     ```bash
    npm install
    npm start
