@@ -21,4 +21,7 @@ To run the backend service:
    npm install
    npm start
 
+2. To register user go to url path: localhost/<port>/register
+3. To login go to url path:localhost/<port>/login
+
 

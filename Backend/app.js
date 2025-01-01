@@ -22,23 +22,6 @@ mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTop
     process.exit(1); // Exit process if database connection fails
   });
 
-// Database connection and server start
-// const options = {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-// };
-
-// mongoose.connect('mongodb+srv://nikhilraj081:Nraj957273@cluster0.nhmqgp6.mongodb.net/HealTether?retryWrites=true&w=majority&appName=Cluster0', options)
-//   .then(() => {
-//     console.log('Connected to the database');
-//     // Define the port and start the server
-//     const PORT = process.env.PORT || 5000;
-//     app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-//   })
-//   .catch((error) => {
-//     console.error('Error connecting to the database:', error);
-//   });
-
 // Import and use authentication routes
 app.use('/api/auth', authRoutes);
 
